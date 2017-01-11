@@ -1,12 +1,10 @@
-var React = require('react');
-var ReactNative = require('react-native');
-
-var {
+import React from 'react';
+import {
   PanResponder,
   View,
   TouchableHighlight,
   Animated,
-} = ReactNative;
+} from 'react-native';
 
 var MaterialSwitch = React.createClass({
   padding: 2,
@@ -238,4 +236,4 @@ var MaterialSwitch = React.createClass({
   }
 });
 
-module.exports = MaterialSwitch;
+export default MaterialSwitch;
